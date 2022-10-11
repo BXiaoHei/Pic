@@ -1,0 +1,249 @@
+2022-10-11 09:27:27 [PicGo INFO] [PicGo Server] is listening at 36677 
+2022-10-11 09:31:58 [PicGo ERROR] 
+------Error Stack Begin------
+Error: image not found in clipboard
+    at yt.upload (D:\Program Files\PicGo\resources\app.asar\node_modules\picgo\dist\index.cjs.js:1:67170)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Object.upload (D:\Program Files\PicGo\resources\app.asar\background.js:2:649330)
+    at async D:\Program Files\PicGo\resources\app.asar\background.js:2:651396
+    at async Cn (D:\Program Files\PicGo\resources\app.asar\background.js:2:651228)
+-------Error Stack End------- 
+2022-10-11 09:33:49 [PicGo INFO] Before transform 
+2022-10-11 09:33:49 [PicGo INFO] Transforming... Current transformer is [path] 
+2022-10-11 09:33:49 [PicGo INFO] Before upload 
+2022-10-11 09:33:49 [PicGo INFO] beforeUploadPlugins: renameFn running 
+2022-10-11 09:33:49 [PicGo INFO] Uploading... Current uploader is [github] 
+2022-10-11 09:33:50 [PicGo SUCCESS] 
+https://fastly.jsdelivr.net/gh/BXiaoHei/20221011093347.png 
+2022-10-11 09:34:57 [PicGo ERROR] 
+------Error Stack Begin------
+Error: image not found in clipboard
+    at yt.upload (D:\Program Files\PicGo\resources\app.asar\node_modules\picgo\dist\index.cjs.js:1:67170)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Object.upload (D:\Program Files\PicGo\resources\app.asar\background.js:2:649330)
+    at async D:\Program Files\PicGo\resources\app.asar\background.js:2:651396
+    at async Cn (D:\Program Files\PicGo\resources\app.asar\background.js:2:651228)
+-------Error Stack End------- 
+2022-10-11 09:35:53 [PicGo INFO] Before transform 
+2022-10-11 09:35:53 [PicGo INFO] Transforming... Current transformer is [path] 
+2022-10-11 09:35:53 [PicGo INFO] Before upload 
+2022-10-11 09:35:53 [PicGo INFO] beforeUploadPlugins: renameFn running 
+2022-10-11 09:35:53 [PicGo INFO] Uploading... Current uploader is [github] 
+2022-10-11 09:35:54 [PicGo SUCCESS] 
+https://fastly.jsdelivr.net/gh/BXiaoHei/Pic/20221011093552.png 
+2022-10-11 09:46:13 [PicGo INFO] Before transform 
+2022-10-11 09:46:13 [PicGo INFO] Transforming... Current transformer is [path] 
+2022-10-11 09:46:23 [PicGo WARN] failed 
+2022-10-11 09:46:23 [PicGo ERROR] 
+------Error Stack Begin------
+Error: request https://fastly.jsdelivr.net/gh/BXiaoHei/Pic/20221011093552.png timeout
+    at D:\Program Files\PicGo\resources\app.asar\node_modules\picgo\dist\index.cjs.js:1:37907
+    at async Promise.all (index 0)
+    at async Object.handle (D:\Program Files\PicGo\resources\app.asar\node_modules\picgo\dist\index.cjs.js:1:36993)
+    at async $e.doTransform (D:\Program Files\PicGo\resources\app.asar\node_modules\picgo\dist\index.cjs.js:1:16650)
+    at async $e.start (D:\Program Files\PicGo\resources\app.asar\node_modules\picgo\dist\index.cjs.js:1:15887)
+    at async yt.upload (D:\Program Files\PicGo\resources\app.asar\node_modules\picgo\dist\index.cjs.js:1:67044)
+    at async Object.upload (D:\Program Files\PicGo\resources\app.asar\background.js:2:649330)
+    at async An (D:\Program Files\PicGo\resources\app.asar\background.js:2:652212)
+-------Error Stack End------- 
+2022-10-11 09:46:23 [PicGo ERROR] 
+------Error Stack Begin------
+Error: request https://fastly.jsdelivr.net/gh/BXiaoHei/Pic/20221011093552.png timeout
+    at D:\Program Files\PicGo\resources\app.asar\node_modules\picgo\dist\index.cjs.js:1:37907
+    at async Promise.all (index 0)
+    at async Object.handle (D:\Program Files\PicGo\resources\app.asar\node_modules\picgo\dist\index.cjs.js:1:36993)
+    at async $e.doTransform (D:\Program Files\PicGo\resources\app.asar\node_modules\picgo\dist\index.cjs.js:1:16650)
+    at async $e.start (D:\Program Files\PicGo\resources\app.asar\node_modules\picgo\dist\index.cjs.js:1:15887)
+    at async yt.upload (D:\Program Files\PicGo\resources\app.asar\node_modules\picgo\dist\index.cjs.js:1:67044)
+    at async Object.upload (D:\Program Files\PicGo\resources\app.asar\background.js:2:649330)
+    at async An (D:\Program Files\PicGo\resources\app.asar\background.js:2:652212)
+-------Error Stack End------- 
+2022-10-11 09:46:38 [PicGo INFO] Before transform 
+2022-10-11 09:46:38 [PicGo INFO] Transforming... Current transformer is [path] 
+2022-10-11 09:46:40 [PicGo WARN] failed 
+2022-10-11 09:46:40 [PicGo ERROR] 
+------Error Stack Begin------
+Error: request https://fastly.jsdelivr.net/gh/BXiaoHei/Pic/20221011093552.png error
+    at D:\Program Files\PicGo\resources\app.asar\node_modules\picgo\dist\index.cjs.js:1:37907
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Promise.all (index 0)
+    at async Object.handle (D:\Program Files\PicGo\resources\app.asar\node_modules\picgo\dist\index.cjs.js:1:36993)
+    at async $e.doTransform (D:\Program Files\PicGo\resources\app.asar\node_modules\picgo\dist\index.cjs.js:1:16650)
+    at async $e.start (D:\Program Files\PicGo\resources\app.asar\node_modules\picgo\dist\index.cjs.js:1:15887)
+    at async yt.upload (D:\Program Files\PicGo\resources\app.asar\node_modules\picgo\dist\index.cjs.js:1:67044)
+    at async Object.upload (D:\Program Files\PicGo\resources\app.asar\background.js:2:649330)
+    at async An (D:\Program Files\PicGo\resources\app.asar\background.js:2:652212)
+-------Error Stack End------- 
+2022-10-11 09:46:40 [PicGo ERROR] 
+------Error Stack Begin------
+Error: request https://fastly.jsdelivr.net/gh/BXiaoHei/Pic/20221011093552.png error
+    at D:\Program Files\PicGo\resources\app.asar\node_modules\picgo\dist\index.cjs.js:1:37907
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Promise.all (index 0)
+    at async Object.handle (D:\Program Files\PicGo\resources\app.asar\node_modules\picgo\dist\index.cjs.js:1:36993)
+    at async $e.doTransform (D:\Program Files\PicGo\resources\app.asar\node_modules\picgo\dist\index.cjs.js:1:16650)
+    at async $e.start (D:\Program Files\PicGo\resources\app.asar\node_modules\picgo\dist\index.cjs.js:1:15887)
+    at async yt.upload (D:\Program Files\PicGo\resources\app.asar\node_modules\picgo\dist\index.cjs.js:1:67044)
+    at async Object.upload (D:\Program Files\PicGo\resources\app.asar\background.js:2:649330)
+    at async An (D:\Program Files\PicGo\resources\app.asar\background.js:2:652212)
+-------Error Stack End------- 
+2022-10-11 09:47:11 [PicGo INFO] Before transform 
+2022-10-11 09:47:11 [PicGo INFO] Transforming... Current transformer is [path] 
+2022-10-11 09:47:11 [PicGo WARN] can't get C:\Users\Public\Desktop\DBeaver.lnk's image size 
+2022-10-11 09:47:11 [PicGo WARN] fallback to 200 * 200 
+2022-10-11 09:47:11 [PicGo INFO] Before upload 
+2022-10-11 09:47:11 [PicGo INFO] beforeUploadPlugins: renameFn running 
+2022-10-11 09:47:11 [PicGo INFO] Uploading... Current uploader is [github] 
+2022-10-11 09:47:12 [PicGo SUCCESS] 
+https://fastly.jsdelivr.net/gh/BXiaoHei/DBeaver.lnk 
+2022-10-11 14:05:45 [PicGo INFO] [PicGo Server] get the request {"list":["C:\\Users\\wangy\\AppData\\Local\\Temp\\Typora\\typora-icon2.png","C:\\Users\\wangy\\AppData\\Local\\Temp\\Typora\\typora-icon.png"]} 
+2022-10-11 14:05:45 [PicGo INFO] [PicGo Server] upload files in list 
+2022-10-11 14:05:45 [PicGo INFO] Before transform 
+2022-10-11 14:05:45 [PicGo INFO] Transforming... Current transformer is [path] 
+2022-10-11 14:05:45 [PicGo INFO] Before upload 
+2022-10-11 14:05:45 [PicGo INFO] beforeUploadPlugins: renameFn running 
+2022-10-11 14:05:45 [PicGo INFO] Uploading... Current uploader is [github] 
+2022-10-11 14:05:46 [PicGo WARN] failed 
+2022-10-11 14:05:46 [PicGo ERROR] {
+  "method": "PUT",
+  "url": "https://api.github.com/repos/BXiaoHei/Pic/contents/typora-icon2.png",
+  "statusCode": 422,
+  "message": "Request failed with status code 422",
+  "stack": {},
+  "response": {
+    "status": 422,
+    "statusCode": 422,
+    "body": {
+      "message": "Invalid request.\n\n\"sha\" wasn't supplied.",
+      "documentation_url": "https://docs.github.com/rest/reference/repos#create-or-update-file-contents"
+    }
+  }
+} 
+2022-10-11 14:05:46 [PicGo ERROR] {
+  "method": "PUT",
+  "url": "https://api.github.com/repos/BXiaoHei/Pic/contents/typora-icon2.png",
+  "statusCode": 422,
+  "message": "Request failed with status code 422",
+  "stack": {},
+  "response": {
+    "status": 422,
+    "statusCode": 422,
+    "body": {
+      "message": "Invalid request.\n\n\"sha\" wasn't supplied.",
+      "documentation_url": "https://docs.github.com/rest/reference/repos#create-or-update-file-contents"
+    }
+  }
+} 
+2022-10-11 14:05:46 [PicGo INFO] [PicGo Server] upload result  
+2022-10-11 14:05:46 [PicGo WARN] [PicGo Server] upload failed, see picgo.log for more detail ↑ 
+2022-10-11 14:06:24 [PicGo INFO] [PicGo Server] get the request {"list":["C:\\Users\\wangy\\AppData\\Local\\Temp\\Typora\\typora-icon2.png","C:\\Users\\wangy\\AppData\\Local\\Temp\\Typora\\typora-icon.png"]} 
+2022-10-11 14:06:24 [PicGo INFO] [PicGo Server] upload files in list 
+2022-10-11 14:06:24 [PicGo INFO] Before transform 
+2022-10-11 14:06:24 [PicGo INFO] Transforming... Current transformer is [path] 
+2022-10-11 14:06:24 [PicGo INFO] Before upload 
+2022-10-11 14:06:24 [PicGo INFO] beforeUploadPlugins: renameFn running 
+2022-10-11 14:06:24 [PicGo INFO] Uploading... Current uploader is [github] 
+2022-10-11 14:06:25 [PicGo SUCCESS] 
+https://fastly.jsdelivr.net/gh/BXiaoHei/Pic/Pictypora-icon2.png
+https://fastly.jsdelivr.net/gh/BXiaoHei/Pic/Pictypora-icon.png 
+2022-10-11 14:06:25 [PicGo INFO] [PicGo Server] upload result https://fastly.jsdelivr.net/gh/BXiaoHei/Pic/Pictypora-icon2.png ; https://fastly.jsdelivr.net/gh/BXiaoHei/Pic/Pictypora-icon.png 
+2022-10-11 14:33:33 [PicGo INFO] [PicGo Server] get the request {"list":["C:\\Users\\wangy\\AppData\\Roaming\\Typora\\typora-user-images\\image-20221011143330649.png"]} 
+2022-10-11 14:33:33 [PicGo INFO] [PicGo Server] upload files in list 
+2022-10-11 14:33:33 [PicGo INFO] Before transform 
+2022-10-11 14:33:33 [PicGo INFO] Transforming... Current transformer is [path] 
+2022-10-11 14:33:33 [PicGo INFO] Before upload 
+2022-10-11 14:33:33 [PicGo INFO] beforeUploadPlugins: renameFn running 
+2022-10-11 14:33:33 [PicGo INFO] Uploading... Current uploader is [github] 
+2022-10-11 14:33:34 [PicGo SUCCESS] 
+https://fastly.jsdelivr.net/gh/BXiaoHei/Pic/Picimage-20221011143330649.png 
+2022-10-11 14:33:34 [PicGo INFO] [PicGo Server] upload result https://fastly.jsdelivr.net/gh/BXiaoHei/Pic/Picimage-20221011143330649.png 
+2022-10-11 14:35:35 [PicGo INFO] [PicGo Server] get the request {"list":["C:\\Users\\wangy\\AppData\\Roaming\\Typora\\typora-user-images\\image-20221011143530508.png"]} 
+2022-10-11 14:35:35 [PicGo INFO] [PicGo Server] upload files in list 
+2022-10-11 14:35:35 [PicGo INFO] Before transform 
+2022-10-11 14:35:35 [PicGo INFO] Transforming... Current transformer is [path] 
+2022-10-11 14:35:35 [PicGo INFO] Before upload 
+2022-10-11 14:35:35 [PicGo INFO] beforeUploadPlugins: renameFn running 
+2022-10-11 14:35:35 [PicGo INFO] Uploading... Current uploader is [github] 
+2022-10-11 14:35:36 [PicGo SUCCESS] 
+https://fastly.jsdelivr.net/gh/BXiaoHei/Pic/Picimage-20221011143530508.png 
+2022-10-11 14:35:36 [PicGo INFO] [PicGo Server] upload result https://fastly.jsdelivr.net/gh/BXiaoHei/Pic/Picimage-20221011143530508.png 
+2022-10-11 17:25:24 [PicGo INFO] [PicGo Server] get the request {"list":["C:\\Users\\wangy\\AppData\\Local\\Temp\\Typora\\typora-icon2.png","C:\\Users\\wangy\\AppData\\Local\\Temp\\Typora\\typora-icon.png"]} 
+2022-10-11 17:25:24 [PicGo INFO] [PicGo Server] upload files in list 
+2022-10-11 17:25:24 [PicGo INFO] Before transform 
+2022-10-11 17:25:24 [PicGo INFO] Transforming... Current transformer is [path] 
+2022-10-11 17:25:24 [PicGo INFO] Before upload 
+2022-10-11 17:25:24 [PicGo INFO] beforeUploadPlugins: renameFn running 
+2022-10-11 17:25:24 [PicGo INFO] Uploading... Current uploader is [github] 
+2022-10-11 17:25:25 [PicGo WARN] failed 
+2022-10-11 17:25:25 [PicGo ERROR] {
+  "method": "PUT",
+  "url": "https://api.github.com/repos/BXiaoHei/Pic/contents/Pictypora-icon2.png",
+  "statusCode": 422,
+  "message": "Request failed with status code 422",
+  "stack": {},
+  "response": {
+    "status": 422,
+    "statusCode": 422,
+    "body": {
+      "message": "Invalid request.\n\n\"sha\" wasn't supplied.",
+      "documentation_url": "https://docs.github.com/rest/reference/repos#create-or-update-file-contents"
+    }
+  }
+} 
+2022-10-11 17:25:25 [PicGo ERROR] {
+  "method": "PUT",
+  "url": "https://api.github.com/repos/BXiaoHei/Pic/contents/Pictypora-icon2.png",
+  "statusCode": 422,
+  "message": "Request failed with status code 422",
+  "stack": {},
+  "response": {
+    "status": 422,
+    "statusCode": 422,
+    "body": {
+      "message": "Invalid request.\n\n\"sha\" wasn't supplied.",
+      "documentation_url": "https://docs.github.com/rest/reference/repos#create-or-update-file-contents"
+    }
+  }
+} 
+2022-10-11 17:25:25 [PicGo INFO] [PicGo Server] upload result  
+2022-10-11 17:25:25 [PicGo WARN] [PicGo Server] upload failed, see picgo.log for more detail ↑ 
+2022-10-11 17:25:43 [PicGo INFO] detect second instance 
+2022-10-11 17:27:13 [PicGo INFO] detect second instance 
+2022-10-11 17:29:51 [PicGo INFO] detect second instance 
+2022-10-11 17:29:51 [PicGo INFO] cli -> uploading files from cli C:\\Users\\wangy\\AppData\\Local\\Temp\\Typora\\typora-icon2.png C:\\Users\\wangy\\AppData\\Local\\Temp\\Typora\\typora-icon.png 
+2022-10-11 17:29:51 [PicGo INFO] Before transform 
+2022-10-11 17:29:51 [PicGo INFO] Transforming... Current transformer is [path] 
+2022-10-11 17:29:51 [PicGo INFO] Before upload 
+2022-10-11 17:29:51 [PicGo INFO] beforeUploadPlugins: renameFn running 
+2022-10-11 17:29:51 [PicGo INFO] Uploading... Current uploader is [github] 
+2022-10-11 17:29:52 [PicGo WARN] failed 
+2022-10-11 17:29:52 [PicGo ERROR] {
+  "method": "PUT",
+  "url": "https://api.github.com/repos/BXiaoHei/Pic/contents/Pictypora-icon2.png",
+  "statusCode": 422,
+  "message": "Request failed with status code 422",
+  "stack": {},
+  "response": {
+    "status": 422,
+    "statusCode": 422,
+    "body": {
+      "message": "Invalid request.\n\n\"sha\" wasn't supplied.",
+      "documentation_url": "https://docs.github.com/rest/reference/repos#create-or-update-file-contents"
+    }
+  }
+} 
+2022-10-11 17:29:52 [PicGo ERROR] {
+  "method": "PUT",
+  "url": "https://api.github.com/repos/BXiaoHei/Pic/contents/Pictypora-icon2.png",
+  "statusCode": 422,
+  "message": "Request failed with status code 422",
+  "stack": {},
+  "response": {
+    "status": 422,
+    "statusCode": 422,
+    "body": {
+      "message": "Invalid request.\n\n\"sha\" wasn't supplied.",
+      "documentation_url": "https://docs.github.com/rest/reference/repos#create-or-update-file-contents"
+    }
+  }
+} 
